@@ -11,9 +11,6 @@
 #SBATCH --output=jobs/countArrayJob_%A_%a.out # File to which STDOUT will be written
 #SBATCH --error=jobs/countArrayJob_%A_%a.err # File to which STDERR will be written
 
-export PATH=/global/home/users/johnblair/gsl/bin:$PATH
-export LD_LIBRARY_PATH=/global/home/users/johnblair/gsl/lib/:$LD_LIBRARY_PATH
-
 module load r/3.5.1
 
 
